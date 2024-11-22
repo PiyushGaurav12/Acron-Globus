@@ -1,0 +1,30 @@
+.blog-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .blog-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .blog-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-section li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #444;
+    cursor: pointer;
+  }
+  
+  .blog-section li:hover {
+    color: #f48024;
+  }
+  

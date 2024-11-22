@@ -1,0 +1,43 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.questions-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.blog-section {
+  width: 300px;
+  padding: 20px;
+}
